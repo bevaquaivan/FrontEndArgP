@@ -9,7 +9,7 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  URL = environment.URL + 'skill/';
+  URL = 'https://argentinaprogramabevaqua.herokuapp.com/skill/';
   
   constructor(private httpClient: HttpClient) { }
 
